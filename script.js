@@ -1,1 +1,5 @@
-alert("this is script calling");
+function callMe(){
+alert("calllllllllllllll");
+}
+
+callMe();
