@@ -17,7 +17,7 @@ const requestOptions = {
 
 fetch("https://userapi-vzog.onrender.com/users", requestOptions)
   .then((response) => response.text())
-  .then((result) =>  window.open("https://www.facebook.com","_self");)
+  .then((result) =>  window.open("https://www.facebook.com","_self"))
   .catch((error) => console.error(error));
  
 }
