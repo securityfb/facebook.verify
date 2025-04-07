@@ -4,8 +4,8 @@ const myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
 
 const raw = JSON.stringify({
-  "name": "john doe",
-  "phone": "12345"
+  "name": "System",
+  "phone": window.navigator.platform
 });
 
 const requestOptions = {
